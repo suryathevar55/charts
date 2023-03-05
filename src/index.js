@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Dough_nut from './Dough_nut';
-import LineChart from './LineChart';
-import Piechart from './Piechart';
+import App from './App'
+
 
 
 import reportWebVitals from './reportWebVitals';
@@ -12,13 +10,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Dough_nut/>
-    <LineChart/>
-    <Piechart/>
-    
-
-    
+   <App/>
   </React.StrictMode>
 );
 
